@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NAV-BAR */
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    img {
+      width: 200px;
+    }
+  }
+}
