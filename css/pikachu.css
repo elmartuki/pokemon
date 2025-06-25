@@ -10,3 +10,57 @@ header {
     display: flex;
     justify-content: center;
 }
+@media (min-height: 425px){
+    .detalles{
+        margin: 50px;
+        width: 90%;
+    }
+}
+@media (min-height: 768px){
+    section{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+.detalles{
+    border: 1px solid gray;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalles .img1{
+    width: 300px;
+    
+}
+.detalles h3{
+    margin: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+.detalles p{
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.evoluciones{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.evoluciones .image{
+    border: 5px solid black;
+    border-radius: 180px;
+}
+.evoluciones p{
+    font-size: 100px;
+}
+}
